@@ -1,0 +1,166 @@
+@font-face{
+font-family: Poppins;
+src: url("assets/fonts/Poppins/Poppins-Light.ttf");
+font-weight: 300;
+}
+@font-face{
+font-family: Poppins;
+src: url("assets/fonts/Poppins/Poppins-Medium.ttf");
+font-weight: 500;
+}
+@font-face{
+	font-family: Poppins;
+	src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+	font-weight: 700;
+	}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+nav,footer,header,aside{display: block;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+html {
+	scroll-behavior: smooth; 
+}
+
+body {
+margin: 0 auto;
+width: 768px;
+height: 100vh;
+padding: 0;
+border: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color: #ffffff;
+/* position: relative; */
+}
+
+.header {
+	display: inline-block;
+	padding: 0 0 0 5em;
+	width: 100%;
+	height: 150px;
+	background-color: #6b6b6b;
+	
+}
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.header-container {
+
+}	
+.main {
+}
+.main-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section {
+	width: 50%;
+	margin: 0 auto;
+	padding: 5px;
+}
+.section-contacts {
+}
+.block-title {
+	width: 100%;
+	justify-content: center;
+	margin: 20px 5px 15px 0;
+	background-color: #6b6b6b;
+	text-align: center;
+}
+
+.list-contacts {
+}
+.section-image {
+	position: relative;
+
+}
+.image {
+	width: 270px;
+	height: 250px;
+	background-image: url('assets/img/Photo\ me.JPG');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 5px white solid;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	position: absolute;
+top: -120px;
+left: 50px;
+}
+}
+.section-skills {
+}
+.list-skills {
+}
+.section-code {
+}
+.block-section-code {
+}
+.code {
+	font-family: 'poppins';
+	font-size: 12px;
+	font-weight: 300;
+	color:#6b6b6b;
+}
+.section-courses {
+}
+.list-courses {
+}
+.section-education {
+}
+.list-education {
+}
+.section-languages {
+}
+.list-langueges {
+}
+.footer {
+	background-color: #6b6b6b;
+
+}
+.container-footer {
+	width: auto;
+	height: 25px;
+	margin: 0 auto;
+	padding: 0 0 0 25;
+}
+h1{
+	font-family: 'poppins';
+	font-size: 42px;
+	font-weight: 700;
+	color:#ffffff
+}
+h2{
+	font-family: 'poppins';
+	font-size: 20px;
+	font-weight: 700;
+	color:#ffffff	
+}
+h3{
+	font-family: 'poppins';
+	font-size: 35px;
+	font-weight: 500;
+	color:#ffffff
+}
+li,a,p{
+	font-family: 'poppins';
+	font-size: 12px;
+	font-weight: 300;
+	color: #6b6b6b;
+	text-decoration: none;
+	list-style: none	;
+}
